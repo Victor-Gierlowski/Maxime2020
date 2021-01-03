@@ -1,0 +1,29 @@
+ul {
+  display: block;
+}
+
+li {
+  display: flex;
+  padding:8px;
+}
+
+li:nth-of-type(n+2){
+  border-top:  1px solid black;
+}
+li:last-child{
+  border-bottom:1px solid black;
+}
+
+li:hover {
+  background:rgba(0,100,200,0.1);
+}
+li:active,li.choosed{
+  background: rgba(0,100,255,0.5);
+}
+
+li span {
+  opacity: 0.5;
+  font-size: 50%;
+  width: fit-content !important;
+      margin-left: 1vw;
+}

@@ -1,0 +1,131 @@
+{
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+header {
+  height: 10%;
+}
+
+.row {
+  margin-left: 0!important;
+}
+
+#searchbar {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  width: calc(100% - 8.4%);
+  height: 50px;
+  margin: auto;
+  padding: 6px;
+}
+
+#searchbar img {
+  width: 32px;
+  height: 32px;
+}
+
+#searchbar input{
+  border: none;
+  height: 37px;
+  width:  calc(100% - 32px);
+  font-size: 175%;
+  transform: translateY(-0.5px);
+}
+
+
+
+body>.row>div:first-child,body>.main>div:nth-child(2) {
+  border-right: 2px solid black;
+  height: auto;
+}
+
+.main>div {
+  height: auto;
+}
+
+.main>div:nth-child(1),.main>div:nth-child(2){
+  border-top: 2px solid black;
+}
+
+
+h5 {
+  text-align: center;
+}
+
+.options {
+  margin-top: 21px;
+  border-radius: 7px;
+  background: lightgray;
+  padding: 11px 11px 11px 18px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2vh;
+}
+
+.items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.options span {
+  margin-right: 3vw;
+}
+
+.items .produit {
+  width: 200px;
+  padding: 30px;
+  text-align: center;
+  border: groove 2px lightgray;
+  margin:50px;
+}
+
+.items img {
+  width: auto;
+  height: 64px;
+}
+
+#boutique>div:nth-child(2) {
+  overflow-y: scroll;
+  height: 720px;
+}
+
+.main>div:nth-child(3)>div:nth-child(2){
+  position: absolute;
+  bottom: 3vh;
+}
+
+.main>div:nth-child(1){
+  padding:0;
+}
+.main>div:nth-child(1)>div:nth-child(2){
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.catalogue {
+  border-bottom: double 4px black;
+}
+
+li {
+  padding:20px!important;
+}

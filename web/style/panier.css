@@ -1,0 +1,65 @@
+td {
+  padding: 20px;
+}
+
+
+.main>div:nth-child(2) {
+  padding: 3vh 5vw 3vh 5vw;
+}
+
+
+#panier>div:nth-child(3){
+  margin-top: 1.5vh;
+}
+
+#panier>div:nth-child(1){
+  padding:15px;
+}
+
+#panier>div:nth-child(2) table {
+  overflow-y: scroll;
+height: 35vh;
+display: flex;
+}
+
+#total {
+  background:lightgray;
+  margin-bottom: 1vh;
+}
+#total {
+  margin: 1vh 1vw 1vh 1vw;
+  padding:8px;
+  border:2px solid black;
+}
+
+#panier>div:nth-child(4){
+  margin-top: 3vh;
+}
+#panier>div:nth-child(4) button {
+  width: 100%;
+  height: 70px;
+}
+
+
+#panier h4 {
+  background: lightgray;
+  text-align: center;
+  padding: 7px;
+  border-radius: 11px;
+  border: 1px solid black;
+}
+#panier h3 {
+  text-decoration: underline;
+}
+
+td:nth-child(2){
+  display: flex;
+}
+
+td input {
+  width: 30px;
+}
+
+td p {
+  margin-right: 5vw;
+}

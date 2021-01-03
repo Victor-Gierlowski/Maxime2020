@@ -1,0 +1,67 @@
+html,body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+}
+
+.auth {
+  padding: 20px;
+  border: groove 2px darkgray;
+  width: 100%;
+  height:fit-content;
+}
+
+.auth h4 {
+  border-bottom: groove 2px darkgray;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+}
+
+
+
+.auth form span {
+  display: block;
+  width: 100%;
+}
+
+
+.auth button, .auth input {
+  height:25px;
+  line-height: initial;
+}
+
+.auth form button, .auth form input[type=submit] {
+  width: 150px;
+  margin:15px;
+  margin-top:5px;
+}
+
+.auth .row .col-md-6:first-child {
+  border-right: solid 2px black;
+}
+
+.VCenterParent {
+  display: flex;
+  height: 100%;
+}
+
+.VCenterParent>*:first-child {
+  margin:auto;
+}
+
+img.icon {
+  width:64px;
+  height: 64px;
+}
+
+.main {
+  height: 90%;
+}
